@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class PersonV2 {
+public class PersonWithFirstAndLastName {
 
     private String firstname;
     private String lastname;

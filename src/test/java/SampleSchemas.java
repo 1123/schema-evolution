@@ -8,7 +8,7 @@ public class SampleSchemas {
      * set additionalProperties to true, to allow additional the json objects to contain additional fields.
      **/
 
-    public static String SCHEMA_1 = "{" +
+    public static String SCHEMA_ONLY_FIRSTNAME_CLOSED_CONTENT = "{" +
             "  \"$schema\": \"http://json-schema.org/draft-07/schema#\"," +
             "  \"additionalProperties\" : false," +
             "  \"properties\": {" +
@@ -27,7 +27,7 @@ public class SampleSchemas {
      * <p>
      * Therefore changing from the first version to the second version is a backwards compatible change.
      **/
-    public static String SCHEMA_2 = "{" +
+    public static String SCHEMA_FIRST_AND_LAST_NAME_CLOSED_CONTENT = "{" +
             "  \"$schema\": \"http://json-schema.org/draft-07/schema#\"," +
             "  \"additionalProperties\" : false," +
             "  \"properties\": {" +
@@ -42,7 +42,7 @@ public class SampleSchemas {
      * This third schema for Persons is more restrictive than the second schema in the sense that it does not allow
      * for the property firstname. Therefore changing from schema2 to schema3 is not backwards compatible.
      */
-    public static String SCHEMA_3 = "{" +
+    public static String SCHEMA_ONLY_LAST_NAME_CLOSED_CONTENT = "{" +
             "  \"$schema\": \"http://json-schema.org/draft-07/schema#\"," +
             "  \"additionalProperties\": false," +
             "  \"properties\": {" +

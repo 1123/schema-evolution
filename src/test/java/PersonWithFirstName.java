@@ -5,7 +5,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class PersonV1 {
+public class PersonWithFirstName {
 
     private String firstname;
 
