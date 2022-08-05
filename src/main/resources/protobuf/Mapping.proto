@@ -1,0 +1,12 @@
+syntax = "proto3";
+package io.confluent.samples.cdsimporter.protobuf;
+
+message Mapping {
+  string saart = 1;
+  int64 zeilnr = 2;
+  string kunnr = 3;
+  string idc_aenddat = 4;
+  string idc_ae_uzeit = 5;
+  string idc_typ = 6;
+  string idc_num_ges = 7;
+}
